@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Doe - IT Journey Blog</title>
+    <title>Nathan Martinez - IT Journey Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,7 +45,7 @@
             padding: 10px;
             position: fixed;
             bottom: 0;
-            width: 100%;
+/*             width: 100%; */
         }
     </style>
 </head>
@@ -67,7 +66,7 @@
         <!-- Add more blog posts as needed -->
     </div>
     <footer>
-        <p>&copy; 2024 John Doe - IT Journey Blog</p>
+        <p>&copy; 2024 Nathan Martinez - IT Journey Blog</p>
     </footer>
 </body>
 </html>
