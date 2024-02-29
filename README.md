@@ -92,6 +92,8 @@
     <nav>
         <ul>
             <li><a href="#latest-post">Latest Blog Post</a></li>
+            <li><a href="portfolio.html">Portfolio/Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="extended_full_bio.html">Extended Full Bio</a></li> <!-- Link to the extended biography page -->
         </ul>
     </nav>
