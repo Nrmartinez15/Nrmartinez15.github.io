@@ -48,6 +48,20 @@
             width: 100%;
             left: 0;
         }
+                /* Additional styles for biography page */
+        .biography {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .biography h2 {
+            color: #333;
+        }
+        .biography p {
+            color: #555;
+        }
     </style>
 </head>
 <body>
