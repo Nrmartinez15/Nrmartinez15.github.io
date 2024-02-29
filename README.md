@@ -62,6 +62,25 @@
         .biography p {
             color: #555;
         }
+                /* Additional styles for navigation menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -69,6 +88,13 @@
         <h1>Nathan Martinez</h1>
         <p>IT Journey Blog</p>
     </header>
+        <!-- Navigation menu -->
+    <nav>
+        <ul>
+            <li><a href="#latest-post">Latest Blog Post</a></li>
+            <li><a href="extended_full_bio.html">Extended Full Bio</a></li> <!-- Link to the extended biography page -->
+        </ul>
+    </nav>
     <div class="container">
         <div class="bio">
             <p>Prior Navy TS/SCI || Actively Employed at ManTech as an Associate Cloud Developer/Engineer | AA in Computer Information Technology and Cybersecurity || Plans to transfer to the () for Computer Science</p>
