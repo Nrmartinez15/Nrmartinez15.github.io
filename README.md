@@ -43,9 +43,10 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-            position: absolute;
+            position: fixed;
             bottom: 0;
             width: 100%;
+            left: 0;
         }
     </style>
 </head>
