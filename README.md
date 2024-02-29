@@ -51,7 +51,7 @@
 </head>
 <body>
     <header>
-        <h1>John Doe</h1>
+        <h1>Nathan Martinez</h1>
         <p>IT Journey Blog</p>
     </header>
     <div class="container">
