@@ -47,6 +47,8 @@
             bottom: 0;
             width: 100%;
             left: 0;
+            display: flex;
+            align-items: center; /* Align items vertically */
         }
         /* Additional styles for biography page */
         .biography {
@@ -86,12 +88,16 @@
             border-radius: 5px;
         }
         .social-icons {
-            margin-top: 10px;
+            margin-right: 10px; /* Adjust spacing between LinkedIn icon and footer message */
         }
         .social-icons img {
             width: 30px; /* Adjust size of the LinkedIn icon */
             height: auto;
-            margin-right: 10px;
+            filter: brightness(0) invert(1); /* Make the icon blue like the LinkedIn logo */
+            transition: filter 0.3s ease; /* Add transition effect for hover */
+        }
+        .social-icons img:hover {
+            filter: brightness(1.5) invert(1) drop-shadow(0 0 10px #0077B5); /* Add glow effect on hover */
         }
     </style>
 </head>
@@ -124,7 +130,7 @@
         <!-- LinkedIn icon -->
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/nathan-martinez-24462b203" target="_blank">
-                <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="LinkedIn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
             </a>
         </div>
         <p>&copy; 2024 Nathan Martinez - IT Journey Blog</p>
