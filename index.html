@@ -48,7 +48,8 @@
             width: 100%;
             left: 0;
             display: flex;
-            align-items: center; /* Align items vertically */
+            justify-content: space-between;
+            align-items: center;
         }
         /* Additional styles for biography page */
         .biography {
@@ -87,17 +88,18 @@
             background-color: #555;
             border-radius: 5px;
         }
-        .social-icons {
-            margin-right: 10px; /* Adjust spacing between LinkedIn icon and footer message */
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.3s ease-in-out;
         }
-        .social-icons img {
-            width: 30px; /* Adjust size of the LinkedIn icon */
-            height: auto;
-            filter: brightness(0) invert(1); /* Make the icon blue like the LinkedIn logo */
-            transition: filter 0.3s ease; /* Add transition effect for hover */
+        .social-icons a:hover {
+            transform: scale(1.1); /* Increase size on hover */
         }
-        .social-icons img:hover {
-            filter: brightness(1.5) invert(1) drop-shadow(0 0 10px #0077B5); /* Add glow effect on hover */
+        .copyright {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
         }
     </style>
 </head>
@@ -127,13 +129,13 @@
         <!-- Add more blog posts as needed -->
     </div>
     <footer>
-        <!-- LinkedIn icon -->
         <div class="social-icons">
+            <!-- LinkedIn icon -->
             <a href="https://www.linkedin.com/in/nathan-martinez-24462b203" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                <img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn" style="width: 30px;">
             </a>
         </div>
-        <p>&copy; 2024 Nathan Martinez - IT Journey Blog</p>
+        <p class="copyright">&copy; 2024 Nathan Martinez - IT Journey Blog</p>
     </footer>
 </body>
 </html>
