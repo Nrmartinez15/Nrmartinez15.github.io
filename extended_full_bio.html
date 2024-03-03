@@ -68,6 +68,14 @@
             justify-content: space-between;
             align-items: center;
         }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-icons a:hover {
+            transform: scale(1.1); /* Increase size on hover */
+        }
         .copyright {
             flex-grow: 1;
             text-align: center;
@@ -98,7 +106,7 @@
         <img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn" style="width: 30px;">
     </a>
 </div>
-        <p>&copy; 2024 Nathan Martinez - Extended Full Bio</p>
+        <p class="copyright">&copy; 2024 Nathan Martinez - Extended Full Bio</p>
     </footer>
 </body>
 </html>
