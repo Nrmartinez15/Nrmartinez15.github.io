@@ -30,7 +30,6 @@
             background-color: #333;
             padding: 10px;
             text-align: center;
-/*             border-radius: 5px; /* Adding rounded corners */ */
         }
         nav ul {
             list-style-type: none;
@@ -54,7 +53,6 @@
             background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
-            /* border-radius: 5px; */
         }
         footer {
             background-color: #333;
@@ -65,6 +63,14 @@
             bottom: 0;
             width: 100%;
             left: 0;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-icons a:hover {
+            transform: scale(1.1); /* Increase size on hover */
         }
     </style>
 </head>
@@ -85,8 +91,13 @@
         </div>
     </div>
     <footer>
+        <div class="social-icons">
+            <!-- LinkedIn icon -->
+            <a href="https://www.linkedin.com/in/nathan-martinez-24462b203" target="_blank">
+                <img src="https://simpleicons.org/icons/linkedin.svg" alt="LinkedIn" style="width: 30px; fill: #0077B5;">
+            </a>
+        </div>
         <p>&copy; 2024 Nathan Martinez - Portfolio</p>
     </footer>
 </body>
 </html>
-
